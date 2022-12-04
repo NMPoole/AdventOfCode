@@ -2,7 +2,7 @@
 # Advent of Code 2022 - Day 1
 #######################################################################################################################
 
-data = open('./day1/day1-input.txt', 'r')  # Read data from input file
+data = open('day1-input.txt', 'r')  # Read data from input file
 
 elves_calories = data.read().strip().split('\n\n')  # Elves calorie data separated by blank lines
 calories = []

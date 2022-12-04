@@ -2,7 +2,7 @@
 # Advent of Code 2022 - Day 3
 #######################################################################################################################
 
-with open('./day3/day3-input.txt') as file:  # Reading data from file
+with open('day3-input.txt') as file:  # Reading data from file
     rucksacks = file.read().splitlines()
 
 a_to_Z = [chr(i) for i in range(97, 97 + 26)]  # List of chars from a to z, inclusive

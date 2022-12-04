@@ -37,7 +37,7 @@ def part2_solution(input_string):
     return counter[True]
 
 
-with open('./day4/day4-input.txt') as file:  # Reading data from file
+with open('day4-input.txt') as file:  # Reading data from file
     data = file.read()
 
 # Part 1:

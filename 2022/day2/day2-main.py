@@ -26,7 +26,7 @@ strategy = {  # (Part 2) Scores based on round outcome, where: X -> loss, Y -> d
 part1_total_score = 0
 part2_total_score = 0
 
-with open("./day2/day5-input.txt") as rounds:  # Load the rounds of the game
+with open("day2-input.txt") as rounds:  # Load the rounds of the game
     for curr_round in rounds:
         # Getting what they play and what we play (part 1) / desired outcome (part 2)
         they_play, response = curr_round.strip().split(" ")

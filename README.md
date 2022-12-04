@@ -1,5 +1,9 @@
 # Advent Of Code
 
+![Language](https://img.shields.io/badge/Languages-Python-orange)&nbsp;
+![Update](https://img.shields.io/badge/Updated-Daily-green.svg)&nbsp;
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE.md)&nbsp;
+
 My solutions to [Advent of Code](https://adventofcode.com/), which occurs in December of each year as a festive-themed coding challenge.
 
 ## 2022

@@ -8,7 +8,7 @@ from copy import deepcopy
 from dataclasses import dataclass
 
 
-@dataclass(frozen=True)  # Adds sunder methods automatically - frozen makes attributes read-only after creation
+@dataclass(frozen=True)  # Adds dunder methods automatically - frozen makes attributes read-only after creation
 class Point:
     """
     Point class:

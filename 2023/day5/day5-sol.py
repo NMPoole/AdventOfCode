@@ -5,8 +5,8 @@
 def solve(groups, seed_interpreter):
     seed_ranges = seed_interpreter(list(map(int, groups[0].split()[1:])))
 
-    for g in groups[1:]:
-        step_mapping = [tuple(map(int, l.split())) for l in g.splitlines()[1:]]
+    for group in groups[1:]:
+        step_mapping = [tuple(map(int, line.split())) for line in group.splitlines()[1:]]
         new_ranges = []
 
         for start, r_len in seed_ranges:
@@ -15,7 +15,7 @@ def solve(groups, seed_interpreter):
                 best_dist = r_len
 
                 for dst, src, length in step_mapping:
-                    if src <= start < src+length:
+                    if src <= start < src + length:
                         # Found a match
                         off = start - src
                         rem_length = min(length - off, r_len)

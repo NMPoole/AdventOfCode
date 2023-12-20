@@ -29,13 +29,13 @@ def calc_part2(lines):
 
 
 if __name__ == "__main__":
-    lines = open("day9-input.txt").readlines()
+    input_lines = open("day9-input.txt").readlines()
 
-    part1_sol = calc_part1(lines)
+    part1_sol = calc_part1(input_lines)
     print(f"What is the sum of these extrapolated values?"
           f"\nAnswer: {part1_sol}")
 
-    part2_sol = calc_part2(lines)
+    part2_sol = calc_part2(input_lines)
     print(f"What is the sum of these extrapolated values?"
           f"\nAnswer: {part2_sol}")
 
